@@ -3,13 +3,12 @@ package com.example.learn_java;
 public class Learn_Java {
 
     public static void main(String[] args){
-        greetUser("Sanaz");
-        greetUser("Sevil");
-        greetUser("User, What's Up?");
+        greetUser("Sanaz" , "Seifi");
+
     }
 
-    public static void greetUser(String name){
-        System.out.println("Hello " + name);
+    public static void greetUser(String name, String lastName){
+        System.out.println("Hello " + name + " "+ lastName);
 
     }
 }
