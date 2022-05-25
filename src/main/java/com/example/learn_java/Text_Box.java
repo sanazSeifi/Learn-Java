@@ -11,6 +11,6 @@ public class Text_Box {
 
     //another method:
     public  void clear(){
-        this.text;
+        text = "";
     }
 }
