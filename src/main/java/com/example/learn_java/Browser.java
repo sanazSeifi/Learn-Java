@@ -9,11 +9,14 @@ public class Browser {
         System.out.println(html);
     }
 
-    public String sendHttpRequest(String ip) {
+    private String sendHttpRequest(String ip) {
         return "<html></html>";
     }
 
-    public String findIPAddress(String address){
+    private String findIPAddress(String address){
     return "127.83";
+    }
+
+    public void navigate() {
     }
 }
