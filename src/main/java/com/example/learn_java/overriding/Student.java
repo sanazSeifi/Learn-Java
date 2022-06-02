@@ -3,7 +3,7 @@ package com.example.learn_java.overriding;
 public class Student  extends Person{
     private int studentId;
     public void display(){
-       super.display();
+       super.display(); 
         System.out.println("SID : " + studentId);
     }
     public Student(){
