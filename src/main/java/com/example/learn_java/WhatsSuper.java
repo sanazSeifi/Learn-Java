@@ -8,7 +8,7 @@ package com.example.learn_java;
  }
 class Car extends WhatsSuper{
      public void Vroom(){
-         System.out.println("Skuuurt!");
+         super.Vroom();
      }
 
 }
