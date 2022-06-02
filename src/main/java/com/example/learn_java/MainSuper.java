@@ -5,7 +5,6 @@ public class MainSuper {
         WhatsSuper c = new WhatsSuper();
         int maxSpeed = c.maxSpeed;
         System.out.println(maxSpeed);
-        c.display();
 
     }
 }
