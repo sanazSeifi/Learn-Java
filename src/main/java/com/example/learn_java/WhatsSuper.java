@@ -1,15 +1,19 @@
 package com.example.learn_java;
 
  class WhatsSuper{
-     WhatsSuper(){
-         System.out.println("WhatsSuper constructor");
-     }
- }
-class Car extends WhatsSuper{
      int maxSpeed;
-     Car(int maxSpeed){
-         System.out.println("Car Constructor");
+     WhatsSuper(){
+         System.out.println("WhatsSuper's constructor");
+     } WhatsSuper(int maxSpeed){
+         System.out.println("WhatsSuper constructor");
          this.maxSpeed =maxSpeed;
      }
+ }
+class Car extends WhatsSuper {
 
+    Car() {
+       super();
+        System.out.println("Car Constructor");
+
+    }
 }
