@@ -6,10 +6,13 @@ public class HashMapProj {
         HashMap<String, Integer> empIds =  new HashMap<>();
         empIds.put("John", 1234);
         empIds.put("Carl", 568);
-        empIds.put("sanaz", 3997);
+        empIds.put("Sanaz", 3997);
 
         System.out.println(empIds);
 
         System.out.println(empIds.get("Carl"));
+
+        System.out.println(empIds.containsKey("Sanaz"));
+        System.out.println(empIds.containsKey("George"));
     }
 }
