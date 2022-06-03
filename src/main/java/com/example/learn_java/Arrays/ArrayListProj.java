@@ -1,6 +1,8 @@
 package com.example.learn_java.Arrays;
 
 
+import java.util.ArrayList;
+
 public class ArrayListProj {
     public static void main(String[] args){
         String[] fruits = new String[3];
@@ -9,7 +11,7 @@ public class ArrayListProj {
         fruits[2] = "Strawberry";
         System.out.println(fruits[1]);
 
-        ArrayListProj fruitList = new ArrayListProj();
+        ArrayList fruitList = new ArrayList();
         fruitList.add("Mango");
         fruitList.add("Apple");
         fruitList.add("Strawberry");
@@ -17,6 +19,4 @@ public class ArrayListProj {
         System.out.println(fruitList);
     }
 
-    private void add(String mango) {
-    }
 }
