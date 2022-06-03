@@ -25,6 +25,8 @@ public class HashMapProj {
         empIds.replace("Carl", 347);
         System.out.println(empIds);
 
+        empIds.replace("Kam", 4587);
+
 
     }
 }
