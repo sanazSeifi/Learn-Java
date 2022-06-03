@@ -16,5 +16,9 @@ public class HashMapProj {
         System.out.println(empIds.containsKey("George"));
 
         System.out.println(empIds.containsValue(1234));
+        empIds.put("John" , 4586);
+        System.out.println(empIds.get("John"));
+
+
     }
 }
