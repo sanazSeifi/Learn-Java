@@ -31,7 +31,7 @@ public class HashMapProj {
         empIds.putIfAbsent("Steve", 4560);
         System.out.println(empIds);
 
-        empIds.remove("Steve");
+        empIds.remove(4586);
         System.out.println(empIds);
     }
 }
