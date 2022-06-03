@@ -19,6 +19,9 @@ public class HashMapProj {
         empIds.put("John" , 4586);
         System.out.println(empIds.get("John"));
 
+        empIds.put("Sevil", 283);
+        System.out.println(empIds.containsValue(283));
+
 
     }
 }
