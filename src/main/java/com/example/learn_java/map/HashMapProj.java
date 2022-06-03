@@ -9,5 +9,7 @@ public class HashMapProj {
         empIds.put("sanaz", 3997);
 
         System.out.println(empIds);
+
+        System.out.println(empIds.get("Carl"));
     }
 }
