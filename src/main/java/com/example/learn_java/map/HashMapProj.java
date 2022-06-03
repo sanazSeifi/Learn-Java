@@ -26,7 +26,9 @@ public class HashMapProj {
         System.out.println(empIds);
 
         empIds.replace("Kam", 4587);
+        System.out.println(empIds);
 
-
+        empIds.putIfAbsent("Steve", 4560);
+        System.out.println(empIds);
     }
 }
