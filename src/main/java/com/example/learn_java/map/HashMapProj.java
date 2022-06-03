@@ -22,6 +22,9 @@ public class HashMapProj {
         empIds.put("Sevil", 283);
         System.out.println(empIds.containsValue(283));
 
+        empIds.replace("Carl", 347);
+        System.out.println(empIds);
+
 
     }
 }
