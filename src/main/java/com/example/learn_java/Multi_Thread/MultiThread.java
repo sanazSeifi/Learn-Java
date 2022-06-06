@@ -7,5 +7,6 @@ public static void main(String[] args){
         MultiThreadThings myThing = new MultiThreadThings(i);
         myThing.start();
     }
+    throw new RuntimeException();
 }
 }
