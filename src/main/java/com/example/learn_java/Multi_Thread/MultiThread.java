@@ -5,7 +5,8 @@ public static void main(String[] args){
 
     for(int i = 0; i<= 5; i++) {
         MultiThreadThings myThing = new MultiThreadThings(i);
-        myThing.start();
+        Thread myThread = new Thread(myThing);
+        myThread.start();
     }
     throw new RuntimeException();
 }

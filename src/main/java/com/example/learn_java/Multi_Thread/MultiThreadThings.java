@@ -1,5 +1,5 @@
 package com.example.learn_java.Multi_Thread;
-public class MultiThreadThings extends Thread{
+public class MultiThreadThings  implements Runnable{
     private int threadNumber;
 
     public MultiThreadThings(int threadNumber){
