@@ -7,6 +7,8 @@ public static void main(String[] args){
         MultiThreadThings myThing = new MultiThreadThings(i);
         Thread myThread = new Thread(myThing);
         myThread.start();
+        myThread.isAlive();
+        System.out.println(myThread.isAlive());
         try {
             try {
                 myThread.join();
@@ -14,9 +16,10 @@ public static void main(String[] args){
                 e.printStackTrace();
             }
         } finally {
+            System.out.println(myThread.isAlive());
+        }
+        }
 
-        }
-        }
     }
 
 }
