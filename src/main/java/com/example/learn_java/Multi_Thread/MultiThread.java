@@ -7,7 +7,16 @@ public static void main(String[] args){
         MultiThreadThings myThing = new MultiThreadThings(i);
         Thread myThread = new Thread(myThing);
         myThread.start();
+        try {
+            try {
+                myThread.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        } finally {
+
+        }
+        }
     }
-    throw new RuntimeException();
-}
+
 }
